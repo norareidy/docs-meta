@@ -25,7 +25,7 @@ The style guide includes hundreds of standards, but you can start with
 the following ones to help you boost the effectiveness of your writing.
 
 .. list-table::
-   :widths: 40 40 20
+   :widths: 60 30 10
    :header-rows: 1
 
    * - Standard
@@ -38,10 +38,12 @@ the following ones to help you boost the effectiveness of your writing.
        more direct and easier to understand than passive-voice
        sentences.
      - **Incorrect:**
+       
        The data your application receives can be filtered and transformed
        by specifying a set of aggregation operators.
 
        **Correct:**
+
        You can specify a set of aggregation operators to filter and transform
        the data your application receives.
      - :ref:`use-active-voice`
@@ -51,10 +53,12 @@ the following ones to help you boost the effectiveness of your writing.
        information. These activities occur in the users' present
        time, so the present tense is appropriate in most content.
      - **Incorrect:**
+       
        After you have dropped an index, the system returns information about
        the status of the operation.
 
        **Correct:**
+       
        After you drop an index, the system returns information about the
        status of the operation.
      - :ref:`use-present-tense`
@@ -67,10 +71,12 @@ the following ones to help you boost the effectiveness of your writing.
        *and* active voice, you make the text clear, concise, and
        direct.
      - **Incorrect:**
+       
        Developers can use the ``insert_one()`` method to insert a single
        document into a collection.
 
        **Correct:**
+       
        Use the ``insert_one()`` method to insert a single document into a
        collection.
      - :ref:`write-to-the-user`
@@ -83,11 +89,13 @@ the following ones to help you boost the effectiveness of your writing.
        When listing three or more items, use a bullet list instead of
        embedding the items in a paragraph.
      - **Incorrect:**
+       
        The following example finds all documents with ``"Pizza"`` in the
        ``cuisine`` field, sets the ``BatchSize`` to ``3``, and stores the
        results in a cursor.
 
        **Correct:**
+       
        The following example performs these actions:
 
        - Finds all documents with ``"Pizza"`` in the ``cuisine`` field
@@ -100,10 +108,12 @@ the following ones to help you boost the effectiveness of your writing.
        come alive for users. To make the biggest impact with your
        writing, use strong, simple, action verbs.
      - **Incorrect:**
+       
        Look for the **Create Database User** button and select it to save
        the user.
 
        **Correct:**
+       
        Click **Create Database User** to save the user.
      - :ref:`use-effective-verbs`
    * - **Write clear and brief step text**.
@@ -111,11 +121,13 @@ the following ones to help you boost the effectiveness of your writing.
        When you write instructions for users, write short steps, number them,
        and use active voice and imperative mood.
      - **Incorrect:**
+       
        To create a free cluster through the Atlas UI, users should log in to
        Atlas first. Then, users can navigate to the *Database Deployments* page
        for your project. Finally, they can click *Build a Database*.
 
        **Correct:**
+       
        To create a free cluster through the Atlas UI:
 
        1. Log in to Atlas.
@@ -129,11 +141,13 @@ the following ones to help you boost the effectiveness of your writing.
        are used in place of) are clear, and that they (the pronouns)
        don’t cause vagueness and ambiguity.
      - **Incorrect:**
+       
        To count the number of documents that match your query filter, use
        the ``CountDocuments()`` method. If you pass an empty query filter, *this*
        returns the total number of documents in the collection.
 
        **Correct:**
+       
        To count the number of documents that match your query filter, use
        the ``CountDocuments()`` method. If you pass an empty query filter, *this
        method* returns the total number of documents in the collection.
@@ -143,10 +157,12 @@ the following ones to help you boost the effectiveness of your writing.
        Use periods to end most sentences, avoid quotation marks, and
        use serial commas.
      - **Incorrect:**
+       
        Use the ``$or``, ``$in`` and ``$geoWithin`` operators with partial indexes
        on a time series collection
 
        **Correct:**
+       
        Use the ``$or``, ``$in``, and ``$geoWithin`` operators with partial indexes
        on a time series collection.
      - :ref:`use-correct-punctuation`
@@ -158,9 +174,11 @@ the following ones to help you boost the effectiveness of your writing.
        To meet AP headline-style (or AP title case) capitalization requirements, 
        refer to the guidelines in the :ref:`titles-and-headings` guide.
      - **Incorrect:**
+       
        *Retrieve distinct values of a field*
 
        **Correct:**
+       
        *Retrieve Distinct Values of a Field*
      - :ref:`titles-and-headings`
    * - **Write clear and consistent code examples**.
@@ -168,11 +186,13 @@ the following ones to help you boost the effectiveness of your writing.
        When you create blocks of code as input or output examples,
        follow some basic guidelines to make them clear to users.
      - **Incorrect:**
+       
        Use ``dpkg`` to install mongosh by running
        ``sudo dpkg -i mongodb-mongosh_{put version and platform here}.deb``
        on your command line.
 
        **Correct:**
+       
        Use ``dpkg`` to install mongosh:
 
        .. code-block:: bash
@@ -187,10 +207,12 @@ the following ones to help you boost the effectiveness of your writing.
        throughout the content. Avoid using humor, jargon, and
        metaphors.
      - **Incorrect:**
+       
        Execute the following command in the shell to fire up the source connector
        using the configuration file you created.
 
        **Correct:**
+       
        Run the following command in the shell to start the source connector
        using the configuration file you created.
      - :ref:`use-consistent-terms`
