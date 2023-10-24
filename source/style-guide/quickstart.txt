@@ -25,7 +25,7 @@ The style guide includes hundreds of standards, but you can start with
 the following ones to help you boost the effectiveness of your writing.
 
 .. list-table::
-   :widths: 60 30 10
+   :widths: 70 20 10
    :header-rows: 1
 
    * - Standard
@@ -39,13 +39,13 @@ the following ones to help you boost the effectiveness of your writing.
        sentences.
      - **Incorrect:**
        
-       The data your application receives can be filtered and transformed
-       by specifying a set of aggregation operators.
+       The data your application receives can be filtered and
+       transformed by specifying a set of aggregation operators.
 
        **Correct:**
 
-       You can specify a set of aggregation operators to filter and transform
-       the data your application receives.
+       You can specify a set of aggregation operators to filter and
+       transform the data your application receives.
      - :ref:`use-active-voice`
    * - **Use present tense**.
 
@@ -54,13 +54,13 @@ the following ones to help you boost the effectiveness of your writing.
        time, so the present tense is appropriate in most content.
      - **Incorrect:**
        
-       After you have dropped an index, the system returns information about
-       the status of the operation.
+       After you have dropped an index, the system returns information
+       about the status of the operation.
 
        **Correct:**
        
-       After you drop an index, the system returns information about the
-       status of the operation.
+       After you drop an index, the system returns information about
+       the status of the operation.
      - :ref:`use-present-tense`
    * - **Write to the user by using second person and imperative mood**.
 
@@ -72,13 +72,13 @@ the following ones to help you boost the effectiveness of your writing.
        direct.
      - **Incorrect:**
        
-       Developers can use the ``insert_one()`` method to insert a single
-       document into a collection.
+       Developers can use the ``insert_one()`` method to insert a
+       single document into a collection.
 
        **Correct:**
        
-       Use the ``insert_one()`` method to insert a single document into a
-       collection.
+       Use the ``insert_one()`` method to insert a single document
+       into a collection.
      - :ref:`write-to-the-user`
    * - **Write short sentences and paragraphs, and use lists whenever
        possible**.
@@ -90,9 +90,9 @@ the following ones to help you boost the effectiveness of your writing.
        embedding the items in a paragraph.
      - **Incorrect:**
        
-       The following example finds all documents with ``"Pizza"`` in the
-       ``cuisine`` field, sets the ``BatchSize`` to ``3``, and stores the
-       results in a cursor.
+       The following example finds all documents with ``"Pizza"``
+       in the ``cuisine`` field, sets the ``BatchSize`` to ``3``,
+       and stores the results in a cursor.
 
        **Correct:**
        
@@ -109,12 +109,12 @@ the following ones to help you boost the effectiveness of your writing.
        writing, use strong, simple, action verbs.
      - **Incorrect:**
        
-       Look for the **Create Database User** button and select it to save
+       Look for the *Create Database User* button and select it to save
        the user.
 
        **Correct:**
        
-       Click **Create Database User** to save the user.
+       Click *Create Database User* to save the user.
      - :ref:`use-effective-verbs`
    * - **Write clear and brief step text**.
 
@@ -122,9 +122,10 @@ the following ones to help you boost the effectiveness of your writing.
        and use active voice and imperative mood.
      - **Incorrect:**
        
-       To create a free cluster through the Atlas UI, users should log in to
-       Atlas first. Then, users can navigate to the *Database Deployments* page
-       for your project. Finally, they can click *Build a Database*.
+       To create a free cluster through the Atlas UI, users should log
+       in to Atlas first. Then, users can navigate to the *Database
+       Deployments* page for your project. Finally, they can click *Build
+       a Database*.
 
        **Correct:**
        
@@ -143,14 +144,14 @@ the following ones to help you boost the effectiveness of your writing.
      - **Incorrect:**
        
        To count the number of documents that match your query filter, use
-       the ``CountDocuments()`` method. If you pass an empty query filter, *this*
-       returns the total number of documents in the collection.
+       the ``CountDocuments()`` method. If you pass an empty query filter,
+       *this* returns the total number of documents in the collection.
 
        **Correct:**
        
        To count the number of documents that match your query filter, use
-       the ``CountDocuments()`` method. If you pass an empty query filter, *this
-       method* returns the total number of documents in the collection.
+       the ``CountDocuments()`` method. If you pass an empty query filter,
+       *this method* returns the total number of documents in the collection.
      - :ref:`use-pronouns-carefully`
    * - **Use correct punctuation**.
 
@@ -158,13 +159,13 @@ the following ones to help you boost the effectiveness of your writing.
        use serial commas.
      - **Incorrect:**
        
-       Use the ``$or``, ``$in`` and ``$geoWithin`` operators with partial indexes
-       on a time series collection
+       Use the ``$or``, ``$in`` and ``$geoWithin`` operators with partial
+       indexes on a time series collection
 
        **Correct:**
        
-       Use the ``$or``, ``$in``, and ``$geoWithin`` operators with partial indexes
-       on a time series collection.
+       Use the ``$or``, ``$in``, and ``$geoWithin`` operators with partial
+       indexes on a time series collection.
      - :ref:`use-correct-punctuation`
 
        :ref:`punctuation`
@@ -208,8 +209,8 @@ the following ones to help you boost the effectiveness of your writing.
        metaphors.
      - **Incorrect:**
        
-       Execute the following command in the shell to fire up the source connector
-       using the configuration file you created.
+       Execute the following command in the shell to fire up the source
+       connector using the configuration file you created.
 
        **Correct:**
        
